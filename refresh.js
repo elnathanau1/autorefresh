@@ -1,4 +1,4 @@
-window.setInterval(refreshPage, 1000);
+window.setInterval(refreshPage, 1500);
 
 var pageDom = ""
 chrome.runtime.onMessage.addListener(function(request, sender) {
