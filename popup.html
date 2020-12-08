@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body style="width:200px;">
+    <!-- <button id="refreshButton">Refresh</button> -->
+    <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
+    <div>
+      <label>Refreshing:</label>
+      <label class="switch">
+        <input type="checkbox" id="refreshSwitch">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <br>
+    <div>
+      <label>Search Term:</label>
+      <input type="text" id="searchTerm">
+    </div>
+    <div>
+      <label>Refresh rate (ms):</label>
+      <input type="number" min="500" max="100000" value="1000" id="refreshRate">
+    </div>
+    <script type="text/javascript" src="refresh.js"></script>
+  </body>
+</html>
